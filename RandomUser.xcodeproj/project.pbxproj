@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,18 @@
 		5AE8AEA72575E622004ECADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8AEA52575E622004ECADA /* LaunchScreen.storyboard */; };
 		5AE8AEB22575E622004ECADA /* RandomUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AEB12575E622004ECADA /* RandomUserTests.swift */; };
 		5AE8AEBD2575E622004ECADA /* RandomUserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AEBC2575E622004ECADA /* RandomUserUITests.swift */; };
+		5AF7D1A22575EBAD0029D9A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7D1A12575EBAD0029D9A3 /* User.swift */; };
+		5AF7D1B42575F8D70029D9A3 /* UserLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7D1B32575F8D70029D9A3 /* UserLocalDataManager.swift */; };
+		5AF7D1B92575F8E80029D9A3 /* UserApiDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7D1B82575F8E80029D9A3 /* UserApiDataManager.swift */; };
+		5AF7D1C22575F9830029D9A3 /* ViperContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7D1C12575F9830029D9A3 /* ViperContracts.swift */; };
+		5AF7D1CE2575FC070029D9A3 /* UserListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7D1CD2575FC070029D9A3 /* UserListPresenter.swift */; };
+		5AF7D1D62575FC1D0029D9A3 /* UserListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7D1D52575FC1D0029D9A3 /* UserListInteractor.swift */; };
+		5AF7D1DB2575FC3F0029D9A3 /* UserListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7D1DA2575FC3F0029D9A3 /* UserListRouter.swift */; };
+		5AF7D1E02575FC680029D9A3 /* UserListContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7D1DF2575FC680029D9A3 /* UserListContracts.swift */; };
+		5AF7D1E52575FC770029D9A3 /* UserListModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7D1E42575FC770029D9A3 /* UserListModule.swift */; };
+		5AF7D1ED2575FEF00029D9A3 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7D1EC2575FEF00029D9A3 /* UserListView.swift */; };
+		5AF7D1F4257600B90029D9A3 /* UserListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7D1F2257600B90029D9A3 /* UserListTableViewCell.swift */; };
+		5AF7D1F5257600B90029D9A3 /* UserListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AF7D1F3257600B90029D9A3 /* UserListTableViewCell.xib */; };
 		8221FF13A0ABA496FC61F55B /* Pods_RandomUserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2100C1E19A75425E6DC686 /* Pods_RandomUserTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +64,18 @@
 		5AE8AEB82575E622004ECADA /* RandomUserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE8AEBC2575E622004ECADA /* RandomUserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserUITests.swift; sourceTree = "<group>"; };
 		5AE8AEBE2575E622004ECADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF7D1A12575EBAD0029D9A3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5AF7D1B32575F8D70029D9A3 /* UserLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocalDataManager.swift; sourceTree = "<group>"; };
+		5AF7D1B82575F8E80029D9A3 /* UserApiDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiDataManager.swift; sourceTree = "<group>"; };
+		5AF7D1C12575F9830029D9A3 /* ViperContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperContracts.swift; sourceTree = "<group>"; };
+		5AF7D1CD2575FC070029D9A3 /* UserListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListPresenter.swift; sourceTree = "<group>"; };
+		5AF7D1D52575FC1D0029D9A3 /* UserListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInteractor.swift; sourceTree = "<group>"; };
+		5AF7D1DA2575FC3F0029D9A3 /* UserListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListRouter.swift; sourceTree = "<group>"; };
+		5AF7D1DF2575FC680029D9A3 /* UserListContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListContracts.swift; sourceTree = "<group>"; };
+		5AF7D1E42575FC770029D9A3 /* UserListModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListModule.swift; sourceTree = "<group>"; };
+		5AF7D1EC2575FEF00029D9A3 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		5AF7D1F2257600B90029D9A3 /* UserListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTableViewCell.swift; sourceTree = "<group>"; };
+		5AF7D1F3257600B90029D9A3 /* UserListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserListTableViewCell.xib; sourceTree = "<group>"; };
 		6C2100C1E19A75425E6DC686 /* Pods_RandomUserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomUserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF36120E90D132D59F288A9 /* Pods-RandomUserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomUserTests.debug.xcconfig"; path = "Target Support Files/Pods-RandomUserTests/Pods-RandomUserTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6507E7D25C354BE6CE849C1 /* Pods_RandomUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +138,10 @@
 		5AE8AE992575E61F004ECADA /* RandomUser */ = {
 			isa = PBXGroup;
 			children = (
+				5AF7D1C02575F9610029D9A3 /* Common */,
+				5AF7D1AA2575F7330029D9A3 /* DataManager */,
+				5AF7D1A92575F7290029D9A3 /* Modules */,
+				5AF7D1A02575EB960029D9A3 /* Entity */,
 				5AE8AE9A2575E61F004ECADA /* AppDelegate.swift */,
 				5AE8AE9C2575E61F004ECADA /* SceneDelegate.swift */,
 				5AE8AE9E2575E61F004ECADA /* ViewController.swift */,
@@ -142,6 +170,70 @@
 			path = RandomUserUITests;
 			sourceTree = "<group>";
 		};
+		5AF7D1A02575EB960029D9A3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7D1A12575EBAD0029D9A3 /* User.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5AF7D1A92575F7290029D9A3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7D1C72575F9AF0029D9A3 /* UserDetail */,
+				5AF7D1C62575F9A50029D9A3 /* UserList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5AF7D1AA2575F7330029D9A3 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7D1B32575F8D70029D9A3 /* UserLocalDataManager.swift */,
+				5AF7D1B82575F8E80029D9A3 /* UserApiDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		5AF7D1C02575F9610029D9A3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7D1C12575F9830029D9A3 /* ViperContracts.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5AF7D1C62575F9A50029D9A3 /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7D1F1257600A00029D9A3 /* Cell */,
+				5AF7D1DF2575FC680029D9A3 /* UserListContracts.swift */,
+				5AF7D1D52575FC1D0029D9A3 /* UserListInteractor.swift */,
+				5AF7D1E42575FC770029D9A3 /* UserListModule.swift */,
+				5AF7D1CD2575FC070029D9A3 /* UserListPresenter.swift */,
+				5AF7D1DA2575FC3F0029D9A3 /* UserListRouter.swift */,
+				5AF7D1EC2575FEF00029D9A3 /* UserListView.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		5AF7D1C72575F9AF0029D9A3 /* UserDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserDetail;
+			sourceTree = "<group>";
+		};
+		5AF7D1F1257600A00029D9A3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7D1F2257600B90029D9A3 /* UserListTableViewCell.swift */,
+				5AF7D1F3257600B90029D9A3 /* UserListTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		C146ADF072F392FFB76EB588 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +254,6 @@
 				7DF36120E90D132D59F288A9 /* Pods-RandomUserTests.debug.xcconfig */,
 				00E01A0C7F956C394C0BB0D7 /* Pods-RandomUserTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -276,6 +367,7 @@
 			files = (
 				5AE8AEA72575E622004ECADA /* LaunchScreen.storyboard in Resources */,
 				5AE8AEA42575E622004ECADA /* Assets.xcassets in Resources */,
+				5AF7D1F5257600B90029D9A3 /* UserListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,9 +495,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF7D1E52575FC770029D9A3 /* UserListModule.swift in Sources */,
+				5AF7D1B42575F8D70029D9A3 /* UserLocalDataManager.swift in Sources */,
+				5AF7D1C22575F9830029D9A3 /* ViperContracts.swift in Sources */,
+				5AF7D1A22575EBAD0029D9A3 /* User.swift in Sources */,
+				5AF7D1B92575F8E80029D9A3 /* UserApiDataManager.swift in Sources */,
 				5AE8AE9F2575E61F004ECADA /* ViewController.swift in Sources */,
+				5AF7D1F4257600B90029D9A3 /* UserListTableViewCell.swift in Sources */,
+				5AF7D1E02575FC680029D9A3 /* UserListContracts.swift in Sources */,
+				5AF7D1CE2575FC070029D9A3 /* UserListPresenter.swift in Sources */,
 				5AE8AE9B2575E61F004ECADA /* AppDelegate.swift in Sources */,
+				5AF7D1D62575FC1D0029D9A3 /* UserListInteractor.swift in Sources */,
 				5AE8AE9D2575E61F004ECADA /* SceneDelegate.swift in Sources */,
+				5AF7D1DB2575FC3F0029D9A3 /* UserListRouter.swift in Sources */,
+				5AF7D1ED2575FEF00029D9A3 /* UserListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
