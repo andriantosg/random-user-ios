@@ -8,7 +8,11 @@
 import Foundation
 import Alamofire
 
-struct UserApiDataManager {
+protocol UserApiDataManagerProtocol {
+    func getUsers(completion: @escaping (Result<[User], Error>) -> Void)
+}
+
+struct UserApiDataManager: UserApiDataManagerProtocol {
     func getUsers(completion: @escaping (Result<[User], Error>) -> Void) {
         let parameters: Parameters = [
             "results": 100,

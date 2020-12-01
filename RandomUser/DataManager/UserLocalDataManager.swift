@@ -7,7 +7,12 @@
 
 import Foundation
 
-struct UserLocalDataManager {
+protocol UserLocalDataManagerProtocol {
+    func getUsers(completion: @escaping (Result<[User], Error>) -> Void)
+    func saveUsers(users: [User])
+}
+
+struct UserLocalDataManager: UserLocalDataManagerProtocol {
     
     let key: String = "users"
     

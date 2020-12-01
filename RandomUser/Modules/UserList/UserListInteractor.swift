@@ -10,8 +10,13 @@ import Foundation
 final class UserListInteractor: InteractorInterface {
     weak var presenter: UserListPresenterInteractorInterface?
     
-    let userApiDataManager: UserApiDataManager = UserApiDataManager()
-    let userLocalDataManager: UserLocalDataManager = UserLocalDataManager()
+    let userApiDataManager: UserApiDataManagerProtocol
+    let userLocalDataManager: UserLocalDataManagerProtocol
+    
+    init(userApiDataManager: UserApiDataManagerProtocol = UserApiDataManager(), userLocalDataManager: UserLocalDataManagerProtocol = UserLocalDataManager()) {
+        self.userApiDataManager = userApiDataManager
+        self.userLocalDataManager = userLocalDataManager
+    }
 }
 
 extension UserListInteractor: UserListInteractorPresenterInterface {

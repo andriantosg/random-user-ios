@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2AB0E1E052885C293DC7D435 /* Pods_RandomUser_RandomUserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1626DFE4C7D24B15E924CD7F /* Pods_RandomUser_RandomUserUITests.framework */; };
 		469DE1E02D7063D472526844 /* Pods_RandomUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6507E7D25C354BE6CE849C1 /* Pods_RandomUser.framework */; };
+		5A264098257654470047680F /* UserDetailInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A264097257654470047680F /* UserDetailInteractorTests.swift */; };
 		5A6A5B3B25760FE000167E0D /* UserDetailContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B3A25760FE000167E0D /* UserDetailContracts.swift */; };
 		5A6A5B4025760FEF00167E0D /* UserDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B3F25760FEF00167E0D /* UserDetailInteractor.swift */; };
 		5A6A5B4525760FF900167E0D /* UserDetailModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B4425760FF900167E0D /* UserDetailModule.swift */; };
@@ -18,12 +19,12 @@
 		5A6A5B562576102A00167E0D /* UserDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A6A5B542576102A00167E0D /* UserDetailView.xib */; };
 		5A6A5B5E257623B800167E0D /* ObjectSavable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B5D257623B800167E0D /* ObjectSavable.swift */; };
 		5A6A5B632576246F00167E0D /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B622576246F00167E0D /* UserDefaultsExtension.swift */; };
+		5A6A5B792576303C00167E0D /* UserListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B782576303C00167E0D /* UserListInteractorTests.swift */; };
 		5AE8AE9B2575E61F004ECADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AE9A2575E61F004ECADA /* AppDelegate.swift */; };
 		5AE8AE9D2575E61F004ECADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AE9C2575E61F004ECADA /* SceneDelegate.swift */; };
 		5AE8AE9F2575E61F004ECADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AE9E2575E61F004ECADA /* ViewController.swift */; };
 		5AE8AEA42575E622004ECADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8AEA32575E622004ECADA /* Assets.xcassets */; };
 		5AE8AEA72575E622004ECADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8AEA52575E622004ECADA /* LaunchScreen.storyboard */; };
-		5AE8AEB22575E622004ECADA /* RandomUserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AEB12575E622004ECADA /* RandomUserTests.swift */; };
 		5AE8AEBD2575E622004ECADA /* RandomUserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AEBC2575E622004ECADA /* RandomUserUITests.swift */; };
 		5AF7D1A22575EBAD0029D9A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7D1A12575EBAD0029D9A3 /* User.swift */; };
 		5AF7D1B42575F8D70029D9A3 /* UserLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7D1B32575F8D70029D9A3 /* UserLocalDataManager.swift */; };
@@ -60,6 +61,7 @@
 /* Begin PBXFileReference section */
 		00E01A0C7F956C394C0BB0D7 /* Pods-RandomUserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomUserTests.release.xcconfig"; path = "Target Support Files/Pods-RandomUserTests/Pods-RandomUserTests.release.xcconfig"; sourceTree = "<group>"; };
 		1626DFE4C7D24B15E924CD7F /* Pods_RandomUser_RandomUserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomUser_RandomUserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A264097257654470047680F /* UserDetailInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailInteractorTests.swift; sourceTree = "<group>"; };
 		5A6A5B3A25760FE000167E0D /* UserDetailContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailContracts.swift; sourceTree = "<group>"; };
 		5A6A5B3F25760FEF00167E0D /* UserDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailInteractor.swift; sourceTree = "<group>"; };
 		5A6A5B4425760FF900167E0D /* UserDetailModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModule.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		5A6A5B542576102A00167E0D /* UserDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailView.xib; sourceTree = "<group>"; };
 		5A6A5B5D257623B800167E0D /* ObjectSavable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectSavable.swift; sourceTree = "<group>"; };
 		5A6A5B622576246F00167E0D /* UserDefaultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtension.swift; sourceTree = "<group>"; };
+		5A6A5B782576303C00167E0D /* UserListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInteractorTests.swift; sourceTree = "<group>"; };
 		5AE8AE972575E61F004ECADA /* RandomUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE8AE9A2575E61F004ECADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE8AE9C2575E61F004ECADA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +80,6 @@
 		5AE8AEA62575E622004ECADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AE8AEA82575E622004ECADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AE8AEAD2575E622004ECADA /* RandomUserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AE8AEB12575E622004ECADA /* RandomUserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserTests.swift; sourceTree = "<group>"; };
 		5AE8AEB32575E622004ECADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AE8AEB82575E622004ECADA /* RandomUserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE8AEBC2575E622004ECADA /* RandomUserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserUITests.swift; sourceTree = "<group>"; };
@@ -131,6 +133,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A264096257654290047680F /* UserDetail */ = {
+			isa = PBXGroup;
+			children = (
+				5A264097257654470047680F /* UserDetailInteractorTests.swift */,
+			);
+			path = UserDetail;
+			sourceTree = "<group>";
+		};
+		5A6A5B772576302900167E0D /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				5A6A5B782576303C00167E0D /* UserListInteractorTests.swift */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
 		5AE8AE8E2575E61F004ECADA = {
 			isa = PBXGroup;
 			children = (
@@ -173,7 +191,8 @@
 		5AE8AEB02575E622004ECADA /* RandomUserTests */ = {
 			isa = PBXGroup;
 			children = (
-				5AE8AEB12575E622004ECADA /* RandomUserTests.swift */,
+				5A264096257654290047680F /* UserDetail */,
+				5A6A5B772576302900167E0D /* UserList */,
 				5AE8AEB32575E622004ECADA /* Info.plist */,
 			);
 			path = RandomUserTests;
@@ -552,7 +571,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AE8AEB22575E622004ECADA /* RandomUserTests.swift in Sources */,
+				5A6A5B792576303C00167E0D /* UserListInteractorTests.swift in Sources */,
+				5A264098257654470047680F /* UserDetailInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
