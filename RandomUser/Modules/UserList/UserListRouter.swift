@@ -14,6 +14,6 @@ final class UserListRouter: RouterInterface {
 
 extension UserListRouter: UserListRouterPresenterInterface {
     func showUserDetail(user: User) {
-        // TODO: Go to next page
+        viewController?.navigationController?.pushViewController(UserDetailModule().build(user: user), animated: true)
     }
 }

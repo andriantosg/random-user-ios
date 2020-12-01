@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		2AB0E1E052885C293DC7D435 /* Pods_RandomUser_RandomUserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1626DFE4C7D24B15E924CD7F /* Pods_RandomUser_RandomUserUITests.framework */; };
 		469DE1E02D7063D472526844 /* Pods_RandomUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6507E7D25C354BE6CE849C1 /* Pods_RandomUser.framework */; };
+		5A6A5B3B25760FE000167E0D /* UserDetailContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B3A25760FE000167E0D /* UserDetailContracts.swift */; };
+		5A6A5B4025760FEF00167E0D /* UserDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B3F25760FEF00167E0D /* UserDetailInteractor.swift */; };
+		5A6A5B4525760FF900167E0D /* UserDetailModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B4425760FF900167E0D /* UserDetailModule.swift */; };
+		5A6A5B4A2576100300167E0D /* UserDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B492576100300167E0D /* UserDetailPresenter.swift */; };
+		5A6A5B4F2576100F00167E0D /* UserDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B4E2576100F00167E0D /* UserDetailRouter.swift */; };
+		5A6A5B552576102A00167E0D /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B532576102A00167E0D /* UserDetailView.swift */; };
+		5A6A5B562576102A00167E0D /* UserDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A6A5B542576102A00167E0D /* UserDetailView.xib */; };
 		5AE8AE9B2575E61F004ECADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AE9A2575E61F004ECADA /* AppDelegate.swift */; };
 		5AE8AE9D2575E61F004ECADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AE9C2575E61F004ECADA /* SceneDelegate.swift */; };
 		5AE8AE9F2575E61F004ECADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AE9E2575E61F004ECADA /* ViewController.swift */; };
@@ -51,6 +58,13 @@
 /* Begin PBXFileReference section */
 		00E01A0C7F956C394C0BB0D7 /* Pods-RandomUserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomUserTests.release.xcconfig"; path = "Target Support Files/Pods-RandomUserTests/Pods-RandomUserTests.release.xcconfig"; sourceTree = "<group>"; };
 		1626DFE4C7D24B15E924CD7F /* Pods_RandomUser_RandomUserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomUser_RandomUserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6A5B3A25760FE000167E0D /* UserDetailContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailContracts.swift; sourceTree = "<group>"; };
+		5A6A5B3F25760FEF00167E0D /* UserDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailInteractor.swift; sourceTree = "<group>"; };
+		5A6A5B4425760FF900167E0D /* UserDetailModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailModule.swift; sourceTree = "<group>"; };
+		5A6A5B492576100300167E0D /* UserDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailPresenter.swift; sourceTree = "<group>"; };
+		5A6A5B4E2576100F00167E0D /* UserDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailRouter.swift; sourceTree = "<group>"; };
+		5A6A5B532576102A00167E0D /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		5A6A5B542576102A00167E0D /* UserDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailView.xib; sourceTree = "<group>"; };
 		5AE8AE972575E61F004ECADA /* RandomUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE8AE9A2575E61F004ECADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE8AE9C2575E61F004ECADA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -221,6 +235,13 @@
 		5AF7D1C72575F9AF0029D9A3 /* UserDetail */ = {
 			isa = PBXGroup;
 			children = (
+				5A6A5B3A25760FE000167E0D /* UserDetailContracts.swift */,
+				5A6A5B3F25760FEF00167E0D /* UserDetailInteractor.swift */,
+				5A6A5B4425760FF900167E0D /* UserDetailModule.swift */,
+				5A6A5B492576100300167E0D /* UserDetailPresenter.swift */,
+				5A6A5B4E2576100F00167E0D /* UserDetailRouter.swift */,
+				5A6A5B532576102A00167E0D /* UserDetailView.swift */,
+				5A6A5B542576102A00167E0D /* UserDetailView.xib */,
 			);
 			path = UserDetail;
 			sourceTree = "<group>";
@@ -365,6 +386,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A6A5B562576102A00167E0D /* UserDetailView.xib in Resources */,
 				5AE8AEA72575E622004ECADA /* LaunchScreen.storyboard in Resources */,
 				5AE8AEA42575E622004ECADA /* Assets.xcassets in Resources */,
 				5AF7D1F5257600B90029D9A3 /* UserListTableViewCell.xib in Resources */,
@@ -495,14 +517,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A6A5B4F2576100F00167E0D /* UserDetailRouter.swift in Sources */,
 				5AF7D1E52575FC770029D9A3 /* UserListModule.swift in Sources */,
 				5AF7D1B42575F8D70029D9A3 /* UserLocalDataManager.swift in Sources */,
+				5A6A5B4025760FEF00167E0D /* UserDetailInteractor.swift in Sources */,
 				5AF7D1C22575F9830029D9A3 /* ViperContracts.swift in Sources */,
 				5AF7D1A22575EBAD0029D9A3 /* User.swift in Sources */,
 				5AF7D1B92575F8E80029D9A3 /* UserApiDataManager.swift in Sources */,
+				5A6A5B4A2576100300167E0D /* UserDetailPresenter.swift in Sources */,
+				5A6A5B552576102A00167E0D /* UserDetailView.swift in Sources */,
 				5AE8AE9F2575E61F004ECADA /* ViewController.swift in Sources */,
 				5AF7D1F4257600B90029D9A3 /* UserListTableViewCell.swift in Sources */,
 				5AF7D1E02575FC680029D9A3 /* UserListContracts.swift in Sources */,
+				5A6A5B3B25760FE000167E0D /* UserDetailContracts.swift in Sources */,
+				5A6A5B4525760FF900167E0D /* UserDetailModule.swift in Sources */,
 				5AF7D1CE2575FC070029D9A3 /* UserListPresenter.swift in Sources */,
 				5AE8AE9B2575E61F004ECADA /* AppDelegate.swift in Sources */,
 				5AF7D1D62575FC1D0029D9A3 /* UserListInteractor.swift in Sources */,
