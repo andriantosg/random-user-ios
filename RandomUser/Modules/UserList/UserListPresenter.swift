@@ -23,6 +23,11 @@ extension UserListPresenter: UserListPresenterRouterInterface {}
 extension UserListPresenter: UserListPresenterInteractorInterface {
     func onDataFetched(users: [User]) {
         view?.showData(users: users)
+        interactor.saveDataToLocal(users: users)
+    }
+    
+    func onDataFetchedError(error: Error) {
+        interactor.fetchDataFromLocal()
     }
 }
 

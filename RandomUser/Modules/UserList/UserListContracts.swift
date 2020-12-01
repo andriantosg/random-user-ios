@@ -19,6 +19,7 @@ protocol UserListPresenterRouterInterface: PresenterRouterInterface {
 
 protocol UserListPresenterInteractorInterface: PresenterInteractorInterface {
     func onDataFetched(users: [User])
+    func onDataFetchedError(error: Error)
 }
 
 protocol UserListPresenterViewInterface: PresenterViewInterface {
@@ -29,6 +30,8 @@ protocol UserListPresenterViewInterface: PresenterViewInterface {
 // MARK: - Interactor
 protocol UserListInteractorPresenterInterface: InteractorPresenterInterface {
     func fetchData()
+    func fetchDataFromLocal()
+    func saveDataToLocal(users: [User])
 }
 
 // MARK: - View
