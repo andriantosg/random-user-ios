@@ -22,7 +22,6 @@
 		5A6A5B792576303C00167E0D /* UserListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A5B782576303C00167E0D /* UserListInteractorTests.swift */; };
 		5AE8AE9B2575E61F004ECADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AE9A2575E61F004ECADA /* AppDelegate.swift */; };
 		5AE8AE9D2575E61F004ECADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AE9C2575E61F004ECADA /* SceneDelegate.swift */; };
-		5AE8AE9F2575E61F004ECADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AE9E2575E61F004ECADA /* ViewController.swift */; };
 		5AE8AEA42575E622004ECADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8AEA32575E622004ECADA /* Assets.xcassets */; };
 		5AE8AEA72575E622004ECADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE8AEA52575E622004ECADA /* LaunchScreen.storyboard */; };
 		5AE8AEBD2575E622004ECADA /* RandomUserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE8AEBC2575E622004ECADA /* RandomUserUITests.swift */; };
@@ -75,7 +74,6 @@
 		5AE8AE972575E61F004ECADA /* RandomUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE8AE9A2575E61F004ECADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE8AE9C2575E61F004ECADA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5AE8AE9E2575E61F004ECADA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5AE8AEA32575E622004ECADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5AE8AEA62575E622004ECADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5AE8AEA82575E622004ECADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -180,7 +178,6 @@
 				5AF7D1A02575EB960029D9A3 /* Entity */,
 				5AE8AE9A2575E61F004ECADA /* AppDelegate.swift */,
 				5AE8AE9C2575E61F004ECADA /* SceneDelegate.swift */,
-				5AE8AE9E2575E61F004ECADA /* ViewController.swift */,
 				5AE8AEA32575E622004ECADA /* Assets.xcassets */,
 				5AE8AEA52575E622004ECADA /* LaunchScreen.storyboard */,
 				5AE8AEA82575E622004ECADA /* Info.plist */,
@@ -553,7 +550,6 @@
 				5A6A5B4A2576100300167E0D /* UserDetailPresenter.swift in Sources */,
 				5A6A5B552576102A00167E0D /* UserDetailView.swift in Sources */,
 				5A6A5B632576246F00167E0D /* UserDefaultsExtension.swift in Sources */,
-				5AE8AE9F2575E61F004ECADA /* ViewController.swift in Sources */,
 				5AF7D1F4257600B90029D9A3 /* UserListTableViewCell.swift in Sources */,
 				5AF7D1E02575FC680029D9A3 /* UserListContracts.swift in Sources */,
 				5A6A5B3B25760FE000167E0D /* UserDetailContracts.swift in Sources */,
